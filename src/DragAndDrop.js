@@ -2,9 +2,9 @@ import './App.css';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 import { useState } from 'react';
 const initialItems = [
-  { id: 'item-1', content: 'Macbook M1 Pro' },
-  { id: 'item-2', content: 'iMac Pro' },
-  { id: 'item-3', content: 'Mac Pro' },
+  { id: 'item-2', content: 'iMac M3' },
+  { id: 'item-3', content: 'Mac Studio' },
+  { id: 'item-1', content: 'Macbook M3 Pro' },
 ];
 
 const DragAndDropList = () => {
